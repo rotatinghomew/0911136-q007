@@ -1,0 +1,2125 @@
+{
+  "generation": "domain-7-v1",
+  "tables": {
+    "assets": [
+      {
+        "station_id": "s0",
+        "village_id": "v0",
+        "x": 0,
+        "y": 0,
+        "cost": 2,
+        "repairable": true,
+        "failure_group": "g0"
+      },
+      {
+        "station_id": "s1",
+        "village_id": "v0",
+        "x": 400,
+        "y": 100,
+        "cost": 3,
+        "repairable": true,
+        "failure_group": "g0"
+      },
+      {
+        "station_id": "s2",
+        "village_id": "v1",
+        "x": 800,
+        "y": 200,
+        "cost": 4,
+        "repairable": true,
+        "failure_group": "g1"
+      },
+      {
+        "station_id": "s3",
+        "village_id": "v1",
+        "x": 1200,
+        "y": 0,
+        "cost": 5,
+        "repairable": true,
+        "failure_group": "g1"
+      },
+      {
+        "station_id": "s4",
+        "village_id": "v2",
+        "x": 1600,
+        "y": 100,
+        "cost": 2,
+        "repairable": true,
+        "failure_group": "g2"
+      },
+      {
+        "station_id": "s5",
+        "village_id": "v2",
+        "x": 2000,
+        "y": 200,
+        "cost": 3,
+        "repairable": true,
+        "failure_group": "g2"
+      },
+      {
+        "station_id": "s6",
+        "village_id": "v3",
+        "x": 2400,
+        "y": 0,
+        "cost": 4,
+        "repairable": true,
+        "failure_group": "g3"
+      },
+      {
+        "station_id": "s7",
+        "village_id": "v3",
+        "x": 2800,
+        "y": 100,
+        "cost": 5,
+        "repairable": false,
+        "failure_group": "g3"
+      }
+    ],
+    "truth": [
+      {
+        "record_id": "r0-0",
+        "station_id": "s0",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 2.24,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-1",
+        "station_id": "s1",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 2.5,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-2",
+        "station_id": "s2",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 3.92,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-3",
+        "station_id": "s3",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 4.44,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-4",
+        "station_id": "s4",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 4.8,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-5",
+        "station_id": "s5",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 6.47,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-6",
+        "station_id": "s6",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": 5.7,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r0-7",
+        "station_id": "s7",
+        "process_id": "p0",
+        "at": "2025-06-01T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r1-0",
+        "station_id": "s0",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 5.94,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-1",
+        "station_id": "s1",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 5.75,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-2",
+        "station_id": "s2",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 6.28,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-3",
+        "station_id": "s3",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 7.03,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-4",
+        "station_id": "s4",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 8.33,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-5",
+        "station_id": "s5",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 8.07,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-6",
+        "station_id": "s6",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": 8.08,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r1-7",
+        "station_id": "s7",
+        "process_id": "p1",
+        "at": "2025-06-02T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r2-0",
+        "station_id": "s0",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 9.7,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-1",
+        "station_id": "s1",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 8.86,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-2",
+        "station_id": "s2",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 9.87,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-3",
+        "station_id": "s3",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 11.45,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-4",
+        "station_id": "s4",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 10.47,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-5",
+        "station_id": "s5",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 10.74,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-6",
+        "station_id": "s6",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": 12.38,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r2-7",
+        "station_id": "s7",
+        "process_id": "p2",
+        "at": "2025-06-03T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r3-0",
+        "station_id": "s0",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 12.77,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-1",
+        "station_id": "s1",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 12.49,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-2",
+        "station_id": "s2",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 13.21,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-3",
+        "station_id": "s3",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 12.61,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-4",
+        "station_id": "s4",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 13.58,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-5",
+        "station_id": "s5",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 14.28,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-6",
+        "station_id": "s6",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": 14.01,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r3-7",
+        "station_id": "s7",
+        "process_id": "p3",
+        "at": "2025-06-04T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r4-0",
+        "station_id": "s0",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 14.39,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-1",
+        "station_id": "s1",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 16.2,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-2",
+        "station_id": "s2",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 15.77,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-3",
+        "station_id": "s3",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 16.39,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-4",
+        "station_id": "s4",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 16.68,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-5",
+        "station_id": "s5",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 17.75,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-6",
+        "station_id": "s6",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": 18.83,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r4-7",
+        "station_id": "s7",
+        "process_id": "p4",
+        "at": "2025-06-05T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r5-0",
+        "station_id": "s0",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 2.47,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-1",
+        "station_id": "s1",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 3.88,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-2",
+        "station_id": "s2",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 4.95,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-3",
+        "station_id": "s3",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 4.89,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-4",
+        "station_id": "s4",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 5.7,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-5",
+        "station_id": "s5",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 6.19,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-6",
+        "station_id": "s6",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": 6.42,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r5-7",
+        "station_id": "s7",
+        "process_id": "p5",
+        "at": "2025-06-06T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r6-0",
+        "station_id": "s0",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 6.75,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-1",
+        "station_id": "s1",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 7.42,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-2",
+        "station_id": "s2",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 6.2,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-3",
+        "station_id": "s3",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 8.4,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-4",
+        "station_id": "s4",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 8.14,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-5",
+        "station_id": "s5",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 9.33,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-6",
+        "station_id": "s6",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": 9.84,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r6-7",
+        "station_id": "s7",
+        "process_id": "p6",
+        "at": "2025-06-07T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r7-0",
+        "station_id": "s0",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 9.43,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-1",
+        "station_id": "s1",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 9.61,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-2",
+        "station_id": "s2",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 9.9,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-3",
+        "station_id": "s3",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 10.85,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-4",
+        "station_id": "s4",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 10.13,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-5",
+        "station_id": "s5",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 12.24,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-6",
+        "station_id": "s6",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": 12.52,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r7-7",
+        "station_id": "s7",
+        "process_id": "p7",
+        "at": "2025-06-08T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r8-0",
+        "station_id": "s0",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 11.55,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-1",
+        "station_id": "s1",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 11.64,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-2",
+        "station_id": "s2",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 13.89,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-3",
+        "station_id": "s3",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 13.75,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-4",
+        "station_id": "s4",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 13.64,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-5",
+        "station_id": "s5",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 14.53,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-6",
+        "station_id": "s6",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": 14.82,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r8-7",
+        "station_id": "s7",
+        "process_id": "p8",
+        "at": "2025-06-09T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r9-0",
+        "station_id": "s0",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 15.61,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-1",
+        "station_id": "s1",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 14.97,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-2",
+        "station_id": "s2",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 16.56,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-3",
+        "station_id": "s3",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 17.47,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-4",
+        "station_id": "s4",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 16.97,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-5",
+        "station_id": "s5",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 16.83,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-6",
+        "station_id": "s6",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": 17.48,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r9-7",
+        "station_id": "s7",
+        "process_id": "p9",
+        "at": "2025-06-10T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r10-0",
+        "station_id": "s0",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 3.3,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-1",
+        "station_id": "s1",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 3.53,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-2",
+        "station_id": "s2",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 4.07,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-3",
+        "station_id": "s3",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 4.16,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-4",
+        "station_id": "s4",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 5.43,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-5",
+        "station_id": "s5",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 4.76,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-6",
+        "station_id": "s6",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": 5.66,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r10-7",
+        "station_id": "s7",
+        "process_id": "p10",
+        "at": "2025-06-11T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r11-0",
+        "station_id": "s0",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 6.58,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-1",
+        "station_id": "s1",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 6.54,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-2",
+        "station_id": "s2",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 6.9,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-3",
+        "station_id": "s3",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 6.64,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-4",
+        "station_id": "s4",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 8.49,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-5",
+        "station_id": "s5",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 8.64,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-6",
+        "station_id": "s6",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": 8.52,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r11-7",
+        "station_id": "s7",
+        "process_id": "p11",
+        "at": "2025-06-12T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r12-0",
+        "station_id": "s0",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 9.34,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-1",
+        "station_id": "s1",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 9.36,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-2",
+        "station_id": "s2",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 10.19,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-3",
+        "station_id": "s3",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 10.63,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-4",
+        "station_id": "s4",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 10.83,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-5",
+        "station_id": "s5",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 11.71,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-6",
+        "station_id": "s6",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": 11.34,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r12-7",
+        "station_id": "s7",
+        "process_id": "p12",
+        "at": "2025-06-13T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r13-0",
+        "station_id": "s0",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 11.17,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-1",
+        "station_id": "s1",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 13.25,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-2",
+        "station_id": "s2",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 13.84,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-3",
+        "station_id": "s3",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 14.34,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-4",
+        "station_id": "s4",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 13.81,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-5",
+        "station_id": "s5",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 14.72,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-6",
+        "station_id": "s6",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": 14.28,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r13-7",
+        "station_id": "s7",
+        "process_id": "p13",
+        "at": "2025-06-14T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r14-0",
+        "station_id": "s0",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 14.96,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-1",
+        "station_id": "s1",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 16.45,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-2",
+        "station_id": "s2",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 15.02,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-3",
+        "station_id": "s3",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 17.41,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-4",
+        "station_id": "s4",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 16.41,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-5",
+        "station_id": "s5",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 17.18,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-6",
+        "station_id": "s6",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": 17.64,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r14-7",
+        "station_id": "s7",
+        "process_id": "p14",
+        "at": "2025-06-15T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r15-0",
+        "station_id": "s0",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 3.55,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-1",
+        "station_id": "s1",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 3.61,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-2",
+        "station_id": "s2",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 3.41,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-3",
+        "station_id": "s3",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 5.16,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-4",
+        "station_id": "s4",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 4.31,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-5",
+        "station_id": "s5",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 5.39,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-6",
+        "station_id": "s6",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": 5.67,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r15-7",
+        "station_id": "s7",
+        "process_id": "p15",
+        "at": "2025-06-16T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r16-0",
+        "station_id": "s0",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 6.26,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-1",
+        "station_id": "s1",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 7.46,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-2",
+        "station_id": "s2",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 7.15,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-3",
+        "station_id": "s3",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 6.78,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-4",
+        "station_id": "s4",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 8.8,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-5",
+        "station_id": "s5",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 7.95,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-6",
+        "station_id": "s6",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": 8.53,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r16-7",
+        "station_id": "s7",
+        "process_id": "p16",
+        "at": "2025-06-17T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r17-0",
+        "station_id": "s0",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 8.57,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-1",
+        "station_id": "s1",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 10.17,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-2",
+        "station_id": "s2",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 9.81,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-3",
+        "station_id": "s3",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 9.88,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-4",
+        "station_id": "s4",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 11.66,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-5",
+        "station_id": "s5",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 10.57,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-6",
+        "station_id": "s6",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": 12.77,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r17-7",
+        "station_id": "s7",
+        "process_id": "p17",
+        "at": "2025-06-18T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r18-0",
+        "station_id": "s0",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 12.52,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-1",
+        "station_id": "s1",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 13.33,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-2",
+        "station_id": "s2",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 13.19,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-3",
+        "station_id": "s3",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 14.19,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-4",
+        "station_id": "s4",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 13.59,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-5",
+        "station_id": "s5",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 13.82,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-6",
+        "station_id": "s6",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": 15.52,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r18-7",
+        "station_id": "s7",
+        "process_id": "p18",
+        "at": "2025-06-19T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r19-0",
+        "station_id": "s0",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 14.47,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-1",
+        "station_id": "s1",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 16.12,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-2",
+        "station_id": "s2",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 16.36,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-3",
+        "station_id": "s3",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 16.98,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-4",
+        "station_id": "s4",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 16.99,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-5",
+        "station_id": "s5",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 18.16,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-6",
+        "station_id": "s6",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": 18.33,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r19-7",
+        "station_id": "s7",
+        "process_id": "p19",
+        "at": "2025-06-20T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r20-0",
+        "station_id": "s0",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 2.89,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-1",
+        "station_id": "s1",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 4.35,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-2",
+        "station_id": "s2",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 4.55,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-3",
+        "station_id": "s3",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 5.01,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-4",
+        "station_id": "s4",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 5.51,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-5",
+        "station_id": "s5",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 5.37,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-6",
+        "station_id": "s6",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": 6.29,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r20-7",
+        "station_id": "s7",
+        "process_id": "p20",
+        "at": "2025-06-21T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r21-0",
+        "station_id": "s0",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 5.44,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-1",
+        "station_id": "s1",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 5.97,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-2",
+        "station_id": "s2",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 6.51,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-3",
+        "station_id": "s3",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 6.61,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-4",
+        "station_id": "s4",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 7.97,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-5",
+        "station_id": "s5",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 8.84,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-6",
+        "station_id": "s6",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": 8.75,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r21-7",
+        "station_id": "s7",
+        "process_id": "p21",
+        "at": "2025-06-22T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r22-0",
+        "station_id": "s0",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 8.85,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-1",
+        "station_id": "s1",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 9.19,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-2",
+        "station_id": "s2",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 10.76,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-3",
+        "station_id": "s3",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 9.84,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-4",
+        "station_id": "s4",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 10.73,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-5",
+        "station_id": "s5",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 12.25,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-6",
+        "station_id": "s6",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": 12.66,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r22-7",
+        "station_id": "s7",
+        "process_id": "p22",
+        "at": "2025-06-23T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r23-0",
+        "station_id": "s0",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 12.29,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-1",
+        "station_id": "s1",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 12.33,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-2",
+        "station_id": "s2",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 12.07,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-3",
+        "station_id": "s3",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 12.82,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-4",
+        "station_id": "s4",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 14.32,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-5",
+        "station_id": "s5",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 15.41,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-6",
+        "station_id": "s6",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": 15.56,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r23-7",
+        "station_id": "s7",
+        "process_id": "p23",
+        "at": "2025-06-24T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r24-0",
+        "station_id": "s0",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 14.29,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-1",
+        "station_id": "s1",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 15.92,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-2",
+        "station_id": "s2",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 16.17,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-3",
+        "station_id": "s3",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 15.94,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-4",
+        "station_id": "s4",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 17.85,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-5",
+        "station_id": "s5",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 18.42,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-6",
+        "station_id": "s6",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": 18.18,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r24-7",
+        "station_id": "s7",
+        "process_id": "p24",
+        "at": "2025-06-25T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r25-0",
+        "station_id": "s0",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 2.58,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-1",
+        "station_id": "s1",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 2.86,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-2",
+        "station_id": "s2",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 3.74,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-3",
+        "station_id": "s3",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 4.5,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-4",
+        "station_id": "s4",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 4.78,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-5",
+        "station_id": "s5",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 4.87,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-6",
+        "station_id": "s6",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": 6.72,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r25-7",
+        "station_id": "s7",
+        "process_id": "p25",
+        "at": "2025-06-26T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r26-0",
+        "station_id": "s0",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 5.68,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-1",
+        "station_id": "s1",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 6.34,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-2",
+        "station_id": "s2",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 6.94,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-3",
+        "station_id": "s3",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 6.89,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-4",
+        "station_id": "s4",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 8.09,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-5",
+        "station_id": "s5",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 7.74,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-6",
+        "station_id": "s6",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": 9.26,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r26-7",
+        "station_id": "s7",
+        "process_id": "p26",
+        "at": "2025-06-27T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r27-0",
+        "station_id": "s0",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 8.66,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-1",
+        "station_id": "s1",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 10.18,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-2",
+        "station_id": "s2",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 9.71,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-3",
+        "station_id": "s3",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 9.63,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-4",
+        "station_id": "s4",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 11.44,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-5",
+        "station_id": "s5",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 11.08,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-6",
+        "station_id": "s6",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": 12.49,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r27-7",
+        "station_id": "s7",
+        "process_id": "p27",
+        "at": "2025-06-28T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r28-0",
+        "station_id": "s0",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 12.1,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-1",
+        "station_id": "s1",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 11.9,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-2",
+        "station_id": "s2",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 13.06,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-3",
+        "station_id": "s3",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 14.21,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-4",
+        "station_id": "s4",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 13.71,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-5",
+        "station_id": "s5",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 13.9,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-6",
+        "station_id": "s6",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": 14.04,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r28-7",
+        "station_id": "s7",
+        "process_id": "p28",
+        "at": "2025-06-29T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      },
+      {
+        "record_id": "r29-0",
+        "station_id": "s0",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 15.07,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-1",
+        "station_id": "s1",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 14.85,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-2",
+        "station_id": "s2",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 15.29,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-3",
+        "station_id": "s3",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 15.84,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-4",
+        "station_id": "s4",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 16.42,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-5",
+        "station_id": "s5",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 16.86,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-6",
+        "station_id": "s6",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": 17.28,
+        "quality": "valid"
+      },
+      {
+        "record_id": "r29-7",
+        "station_id": "s7",
+        "process_id": "p29",
+        "at": "2025-06-30T12:00:00+00:00",
+        "rain_mm": null,
+        "quality": "missing"
+      }
+    ],
+    "plans": [
+      {
+        "plan_id": "budget-small",
+        "budget": 8,
+        "protected_villages": [
+          "v2",
+          "v3"
+        ]
+      }
+    ],
+    "outages": [
+      {
+        "outage_id": "o0",
+        "failure_group": "g0",
+        "process_id": "p0",
+        "unavailable_stations": [
+          "s0",
+          "s1"
+        ]
+      },
+      {
+        "outage_id": "o1",
+        "failure_group": "g1",
+        "process_id": "p1",
+        "unavailable_stations": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "outage_id": "o2",
+        "failure_group": "g2",
+        "process_id": "p2",
+        "unavailable_stations": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "outage_id": "o3",
+        "failure_group": "g3",
+        "process_id": "p3",
+        "unavailable_stations": [
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "outage_id": "o4",
+        "failure_group": "g0",
+        "process_id": "p4",
+        "unavailable_stations": [
+          "s0",
+          "s1"
+        ]
+      },
+      {
+        "outage_id": "o5",
+        "failure_group": "g1",
+        "process_id": "p5",
+        "unavailable_stations": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "outage_id": "o6",
+        "failure_group": "g2",
+        "process_id": "p6",
+        "unavailable_stations": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "outage_id": "o7",
+        "failure_group": "g3",
+        "process_id": "p7",
+        "unavailable_stations": [
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "outage_id": "o8",
+        "failure_group": "g0",
+        "process_id": "p8",
+        "unavailable_stations": [
+          "s0",
+          "s1"
+        ]
+      },
+      {
+        "outage_id": "o9",
+        "failure_group": "g1",
+        "process_id": "p9",
+        "unavailable_stations": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "outage_id": "o10",
+        "failure_group": "g2",
+        "process_id": "p10",
+        "unavailable_stations": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "outage_id": "o11",
+        "failure_group": "g3",
+        "process_id": "p11",
+        "unavailable_stations": [
+          "s6",
+          "s7"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "kind": "本地合成领域资料",
+    "cutoff": "2025-09-09T00:00:00+00:00"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "assets": {
+    "keys": [
+      "station_id"
+    ],
+    "columns": [
+      "station_id",
+      "village_id",
+      "x",
+      "y",
+      "cost",
+      "repairable",
+      "failure_group"
+    ]
+  },
+  "truth": {
+    "keys": [
+      "record_id"
+    ],
+    "columns": [
+      "record_id",
+      "station_id",
+      "process_id",
+      "at",
+      "rain_mm",
+      "quality"
+    ]
+  },
+  "plans": {
+    "keys": [
+      "plan_id"
+    ],
+    "columns": [
+      "plan_id",
+      "budget",
+      "protected_villages"
+    ]
+  },
+  "outages": {
+    "keys": [
+      "outage_id"
+    ],
+    "columns": [
+      "outage_id",
+      "failure_group",
+      "process_id",
+      "unavailable_stations"
+    ]
+  }
+}

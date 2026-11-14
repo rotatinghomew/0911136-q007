@@ -8,9 +8,10 @@ from pathlib import Path
 from .datasource import canonical, digest
 
 
-def package_report(snapshot, summary):
+def package_report(snapshot, product):
+    """product 为已定型的分析产品，键直接并入报告顶层（如 summary 或 valuation）。"""
     content = {"generation": snapshot.generation, "sources": snapshot.evidence,
-               "summary": summary, "metadata": snapshot.metadata}
+               **product, "metadata": snapshot.metadata}
     return {"report_id": digest(content), **content}
 
 

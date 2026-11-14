@@ -16,6 +16,16 @@ python3 -m station_health.runner --output /tmp/station_health-summary.json
 
 当前能力是源码 `analysis.py` 定义的摘要，不会自动给出其他统计推断。输出中的 scope 说明边界，sources 记录资料依据。
 
+## 检修组合信息价值评估
+
+在同一批有实测的降雨过程上模拟不同检修组合，比较各村雨量估计误差与最弱覆盖区域的改善，并避免把同故障组相邻站的收益简单相加：
+
+```sh
+python3 -m station_health.runner --valuation --output /tmp/station_health-valuation.json
+```
+
+评估只在 `quality=valid` 的观测上对照真值，模拟时遮蔽被留出站点的真值；历史真实停电情景与反事实压力情景分列，没有有效参照的区域（如不可检修且无实测的 s7）只报覆盖距离、不参与误差证明。方案按联合重放收益穷举排序，并给出逆距离加权幂参数敏感性、单站相加高估比例和 stable/mixed/fragile 分级，供预算会讨论，不会自动下工单。口径与边界见 `docs/data-contract.md`。
+
 ## 分开运行供数与应用
 
 ```sh
